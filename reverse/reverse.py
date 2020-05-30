@@ -51,11 +51,3 @@ class LinkedList:
             curr.next_node = prev
             prev = curr
         return prev
-
-
-# ll = LinkedList()
-# ll.add_to_head(1)
-# ll.add_to_head(2)
-# ll.add_to_head(3)
-# ll.add_to_head(4)
-# print(ll)
